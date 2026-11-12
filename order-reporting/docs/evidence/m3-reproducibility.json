@@ -1,0 +1,10 @@
+{
+  "comparedRuns": [
+    "2026-10-13T22:25:58.262146+08:00",
+    "2026-10-14T22:38:48.260608+08:00"
+  ],
+  "csvFiles": 20,
+  "rows": 100000,
+  "allFileHashesAndSizesIdentical": true,
+  "bothRestoredInitialTableCounts": true
+}

@@ -1,0 +1,11 @@
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s -- in com.orderreporting.DatabaseGuardTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s -- in com.orderreporting.CsvExportTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+2026-10-14T22:36:56.048+08:00  INFO 19330 --- [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://127.0.0.1:13307/order_reporting_test?connectionTimeZone=Asia/Shanghai (MySQL 8.4)
+2026-10-14T22:36:56.152+08:00  INFO 19330 --- [           main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema `order_reporting_test`, now at version v3 (execution time 00:00.021s)
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.334 s -- in com.orderreporting.ReportsMySqlIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.559 s -- in com.orderreporting.WorkflowMySqlIT
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+[INFO] Total time:  5.890 s
+[INFO] Finished at: 2026-10-14T22:36:59+08:00

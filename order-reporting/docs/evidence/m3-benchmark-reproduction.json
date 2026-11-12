@@ -1,0 +1,329 @@
+{
+  "startedAt" : "2026-10-14T22:38:48.260608+08:00",
+  "initialTableCounts" : {
+    "stores" : 0,
+    "products" : 0,
+    "users" : 0,
+    "import_batches" : 0,
+    "orders" : 0,
+    "order_items" : 0,
+    "audit_log" : 0,
+    "export_log" : 0
+  },
+  "environment" : {
+    "arch" : "aarch64",
+    "os" : "Mac OS X 27.0.1",
+    "mysql" : {
+      "version" : "8.4.11",
+      "port" : 13307,
+      "buffer_pool_bytes" : 134217728,
+      "transaction_isolation" : "REPEATABLE-READ",
+      "time_zone" : "+08:00",
+      "db" : "order_reporting_test"
+    },
+    "java" : "21.0.12.1",
+    "logicalProcessors" : 10
+  },
+  "method" : "5 warmups then 20 samples; JDBC execute + all returned rows read, milliseconds; local single client, warm cache, no concurrency or HTTP timing",
+  "fixtureFiles" : [ {
+    "bytes" : 516117,
+    "file" : "orders-00.csv",
+    "sha256" : "28fd67099496571e1d9d69fd085d806f79b4e0402e0c41f598770761d92d9e4e",
+    "rows" : 5000
+  }, {
+    "bytes" : 516157,
+    "file" : "orders-01.csv",
+    "sha256" : "4d5f6f6b740ccc5678e2d529f098d51e865a1f6c0bb992570c0bd60837e68bd3",
+    "rows" : 5000
+  }, {
+    "bytes" : 516317,
+    "file" : "orders-02.csv",
+    "sha256" : "48e19e292ee4b91ff6920213352c6a60cb0a6031d121eca92292b947e2ee1c31",
+    "rows" : 5000
+  }, {
+    "bytes" : 516310,
+    "file" : "orders-03.csv",
+    "sha256" : "8db8e4ec9919fa3e72100e53c94b47649bbfbc79fb8f10376232edc7a6b1b423",
+    "rows" : 5000
+  }, {
+    "bytes" : 516123,
+    "file" : "orders-04.csv",
+    "sha256" : "015b38396a23cf7926d5816a3fa10b279982675a1df660202390e3afae132383",
+    "rows" : 5000
+  }, {
+    "bytes" : 516169,
+    "file" : "orders-05.csv",
+    "sha256" : "0cf23139961d4a1bf2c58b8a4b108ecced3d74180f479f30d07a5bbce30ca40a",
+    "rows" : 5000
+  }, {
+    "bytes" : 516300,
+    "file" : "orders-06.csv",
+    "sha256" : "12e60d2f86e92df4015a44ec679d02edeb9074f847e0d81e3347b1d98a944769",
+    "rows" : 5000
+  }, {
+    "bytes" : 516313,
+    "file" : "orders-07.csv",
+    "sha256" : "6a511d70031410656c3a2f03b75c2800f25e4efad6e5d685588411186afbdfaf",
+    "rows" : 5000
+  }, {
+    "bytes" : 516137,
+    "file" : "orders-08.csv",
+    "sha256" : "7afa56193c86b103122463b109f66de7f4919e1d58fdf1437e9e24c9998bc547",
+    "rows" : 5000
+  }, {
+    "bytes" : 516151,
+    "file" : "orders-09.csv",
+    "sha256" : "d9a8baa0a4beedb174c49655f84ec25181646fa34309b8250c9ab06857b19174",
+    "rows" : 5000
+  }, {
+    "bytes" : 516304,
+    "file" : "orders-10.csv",
+    "sha256" : "e2b416a60e3408f9c84ea0cad8abbbb3009e522eb07bec0b3e8604094384f205",
+    "rows" : 5000
+  }, {
+    "bytes" : 516326,
+    "file" : "orders-11.csv",
+    "sha256" : "6d830f8508707830632014383c5ba2df7b6362abe85bb550db71b652daad5fec",
+    "rows" : 5000
+  }, {
+    "bytes" : 516117,
+    "file" : "orders-12.csv",
+    "sha256" : "3c09074e20507ff218f7cd2e0d7656b2d0b391a0de5ee77742b758be7779d159",
+    "rows" : 5000
+  }, {
+    "bytes" : 516157,
+    "file" : "orders-13.csv",
+    "sha256" : "57b45d07b147e3ba789a0edf2651d6200f1f3bf0931f422f746878d226054f38",
+    "rows" : 5000
+  }, {
+    "bytes" : 516317,
+    "file" : "orders-14.csv",
+    "sha256" : "4108ca18169c213b067119951189f093cbc6ab59e0a0376f83161c6e9a45b640",
+    "rows" : 5000
+  }, {
+    "bytes" : 516310,
+    "file" : "orders-15.csv",
+    "sha256" : "9400d0f766cfec4f74c61ea38b1a2e0a7c94acdae34c244c5582c5c87df158ac",
+    "rows" : 5000
+  }, {
+    "bytes" : 516123,
+    "file" : "orders-16.csv",
+    "sha256" : "d64b7b688491c96e49728ac347ea9220806358169ca7b683884eb0eaf995c473",
+    "rows" : 5000
+  }, {
+    "bytes" : 516169,
+    "file" : "orders-17.csv",
+    "sha256" : "7b2f96392e0c877e5f413c64c5de405dd6c7c7beef14191ab72f8e2e52ffab82",
+    "rows" : 5000
+  }, {
+    "bytes" : 516300,
+    "file" : "orders-18.csv",
+    "sha256" : "9fabf25682e52f1693fa730ae6a526567dac732b9a073ce33e2b6d400c59cc34",
+    "rows" : 5000
+  }, {
+    "bytes" : 516313,
+    "file" : "orders-19.csv",
+    "sha256" : "bc5a1e46dbdad6160261aa64649101114198a76d5fb01f2cacc3bf4ce0905755",
+    "rows" : 5000
+  } ],
+  "fixtureLoadMs" : 19023.267792,
+  "fixture" : {
+    "orders" : 50000,
+    "items" : 100000,
+    "products" : 20,
+    "statusCounts" : [ {
+      "status" : "REFUNDED",
+      "orders" : 250
+    }, {
+      "status" : "CANCELLED",
+      "orders" : 5000
+    }, {
+      "status" : "PAID",
+      "orders" : 44750
+    } ],
+    "csvFiles" : 20,
+    "stores" : 10,
+    "year" : 2085
+  },
+  "baselineMode" : "existing candidate excluded with IGNORE INDEX (reproduction after V3)",
+  "listQuery" : {
+    "sql" : "SELECT o.id,o.store_id,s.name store_name,o.external_id,o.status,o.ordered_at,o.paid_at,o.refunded_at,o.total_cents,o.batch_id FROM orders o JOIN stores s ON s.id=o.store_id WHERE 1=1 AND o.store_id=? AND o.ordered_at >= ? AND o.ordered_at < ? AND o.status=? ORDER BY o.ordered_at DESC,o.id DESC LIMIT ? OFFSET ?",
+    "parameters" : [ 29, "2085-01-01T00:00:00", "2086-01-01T00:00:00", "REFUNDED", 20, 0 ]
+  },
+  "countQuery" : {
+    "sql" : "SELECT COUNT(*) FROM orders o JOIN stores s ON s.id=o.store_id WHERE 1=1 AND o.store_id=? AND o.ordered_at >= ? AND o.ordered_at < ? AND o.status=?",
+    "parameters" : [ 29, "2085-01-01T00:00:00", "2086-01-01T00:00:00", "REFUNDED" ]
+  },
+  "matchingOrders" : 25,
+  "beforeList" : {
+    "sql" : "SELECT o.id,o.store_id,s.name store_name,o.external_id,o.status,o.ordered_at,o.paid_at,o.refunded_at,o.total_cents,o.batch_id FROM orders o IGNORE INDEX (ix_store_status_ordered_id) JOIN stores s ON s.id=o.store_id WHERE 1=1 AND o.store_id=? AND o.ordered_at >= ? AND o.ordered_at < ? AND o.status=? ORDER BY o.ordered_at DESC,o.id DESC LIMIT ? OFFSET ?",
+    "explain" : [ {
+      "id" : 1,
+      "select_type" : "SIMPLE",
+      "table" : "s",
+      "partitions" : null,
+      "type" : "const",
+      "possible_keys" : "PRIMARY",
+      "key" : "PRIMARY",
+      "key_len" : "8",
+      "ref" : "const",
+      "rows" : 1,
+      "filtered" : 100.0,
+      "Extra" : null
+    }, {
+      "id" : 1,
+      "select_type" : "SIMPLE",
+      "table" : "o",
+      "partitions" : null,
+      "type" : "range",
+      "possible_keys" : "uk_store_order,ix_store_ordered_id,ix_ordered_id",
+      "key" : "ix_store_ordered_id",
+      "key_len" : "13",
+      "ref" : null,
+      "rows" : 9338,
+      "filtered" : 10.0,
+      "Extra" : "Using index condition; Using where; Backward index scan"
+    } ],
+    "explainAnalyze" : "-> Limit: 20 row(s)  (cost=2055 rows=20) (actual time=0.327..3.37 rows=20 loops=1)\n    -> Filter: (o.`status` = 'REFUNDED')  (cost=2055 rows=934) (actual time=0.327..3.37 rows=20 loops=1)\n        -> Index range scan on o using ix_store_ordered_id over (store_id = 29 AND '2085-01-01 00:00:00' <= ordered_at < '2086-01-01 00:00:00') (reverse), with index condition: ((o.store_id = 29) and (o.ordered_at >= TIMESTAMP'2085-01-01 00:00:00') and (o.ordered_at < TIMESTAMP'2086-01-01 00:00:00'))  (cost=2055 rows=9338) (actual time=0.158..3.28 rows=4173 loops=1)\n",
+    "samplesMs" : [ 2.776792, 2.816417, 2.701416, 2.816084, 2.679958, 2.588, 2.606791, 2.741417, 2.646458, 2.89175, 2.632833, 2.611, 2.583625, 2.707583, 2.664583, 2.877583, 2.769834, 2.669, 2.682125, 2.668542 ],
+    "medianMs" : 2.6810415,
+    "p95Ms" : 2.877583,
+    "minMs" : 2.583625,
+    "maxMs" : 2.89175
+  },
+  "beforeCount" : {
+    "sql" : "SELECT COUNT(*) FROM orders o IGNORE INDEX (ix_store_status_ordered_id) JOIN stores s ON s.id=o.store_id WHERE 1=1 AND o.store_id=? AND o.ordered_at >= ? AND o.ordered_at < ? AND o.status=?",
+    "explain" : [ {
+      "id" : 1,
+      "select_type" : "SIMPLE",
+      "table" : "s",
+      "partitions" : null,
+      "type" : "const",
+      "possible_keys" : "PRIMARY",
+      "key" : "PRIMARY",
+      "key_len" : "8",
+      "ref" : "const",
+      "rows" : 1,
+      "filtered" : 100.0,
+      "Extra" : "Using index"
+    }, {
+      "id" : 1,
+      "select_type" : "SIMPLE",
+      "table" : "o",
+      "partitions" : null,
+      "type" : "ref",
+      "possible_keys" : "uk_store_order,ix_store_ordered_id,ix_ordered_id",
+      "key" : "uk_store_order",
+      "key_len" : "8",
+      "ref" : "const",
+      "rows" : 5000,
+      "filtered" : 5.0,
+      "Extra" : "Using where"
+    } ],
+    "explainAnalyze" : "-> Aggregate: count(0)  (cost=507 rows=1) (actual time=2.11..2.11 rows=1 loops=1)\n    -> Filter: ((o.`status` = 'REFUNDED') and (o.ordered_at >= TIMESTAMP'2085-01-01 00:00:00') and (o.ordered_at < TIMESTAMP'2086-01-01 00:00:00'))  (cost=482 rows=250) (actual time=0.15..2.11 rows=25 loops=1)\n        -> Index lookup on o using uk_store_order (store_id=29)  (cost=482 rows=5000) (actual time=0.149..2 rows=5000 loops=1)\n",
+    "samplesMs" : [ 1.988958, 2.0585, 2.075583, 2.104333, 2.158542, 2.096167, 2.046667, 2.019375, 1.971, 2.032, 2.046083, 2.027875, 2.077916, 2.05425, 2.031167, 2.047833, 2.026917, 2.034708, 2.039417, 2.035958 ],
+    "medianMs" : 2.04275,
+    "p95Ms" : 2.104333,
+    "minMs" : 1.971,
+    "maxMs" : 2.158542
+  },
+  "afterList" : {
+    "sql" : "SELECT o.id,o.store_id,s.name store_name,o.external_id,o.status,o.ordered_at,o.paid_at,o.refunded_at,o.total_cents,o.batch_id FROM orders o JOIN stores s ON s.id=o.store_id WHERE 1=1 AND o.store_id=? AND o.ordered_at >= ? AND o.ordered_at < ? AND o.status=? ORDER BY o.ordered_at DESC,o.id DESC LIMIT ? OFFSET ?",
+    "explain" : [ {
+      "id" : 1,
+      "select_type" : "SIMPLE",
+      "table" : "s",
+      "partitions" : null,
+      "type" : "const",
+      "possible_keys" : "PRIMARY",
+      "key" : "PRIMARY",
+      "key_len" : "8",
+      "ref" : "const",
+      "rows" : 1,
+      "filtered" : 100.0,
+      "Extra" : null
+    }, {
+      "id" : 1,
+      "select_type" : "SIMPLE",
+      "table" : "o",
+      "partitions" : null,
+      "type" : "range",
+      "possible_keys" : "uk_store_order,ix_store_ordered_id,ix_ordered_id,ix_store_status_ordered_id",
+      "key" : "ix_store_status_ordered_id",
+      "key_len" : "79",
+      "ref" : null,
+      "rows" : 25,
+      "filtered" : 100.0,
+      "Extra" : "Using index condition; Backward index scan"
+    } ],
+    "explainAnalyze" : "-> Limit: 20 row(s)  (cost=11.5 rows=20) (actual time=0.0112..0.0324 rows=20 loops=1)\n    -> Index range scan on o using ix_store_status_ordered_id over (store_id = 29 AND status = 'REFUNDED' AND '2085-01-01 00:00:00' <= ordered_at < '2086-01-01 00:00:00') (reverse), with index condition: ((o.`status` = 'REFUNDED') and (o.store_id = 29) and (o.ordered_at >= TIMESTAMP'2085-01-01 00:00:00') and (o.ordered_at < TIMESTAMP'2086-01-01 00:00:00'))  (cost=11.5 rows=25) (actual time=0.011..0.0318 rows=20 loops=1)\n",
+    "samplesMs" : [ 0.176416, 0.209583, 0.196708, 0.20525, 0.201375, 0.195542, 0.224166, 0.193083, 0.178084, 0.168542, 0.160375, 0.164208, 0.174208, 0.145209, 0.144334, 0.150917, 0.149917, 0.157209, 0.169042, 0.170709 ],
+    "medianMs" : 0.17245850000000001,
+    "p95Ms" : 0.209583,
+    "minMs" : 0.144334,
+    "maxMs" : 0.224166
+  },
+  "afterCount" : {
+    "sql" : "SELECT COUNT(*) FROM orders o JOIN stores s ON s.id=o.store_id WHERE 1=1 AND o.store_id=? AND o.ordered_at >= ? AND o.ordered_at < ? AND o.status=?",
+    "explain" : [ {
+      "id" : 1,
+      "select_type" : "SIMPLE",
+      "table" : "s",
+      "partitions" : null,
+      "type" : "const",
+      "possible_keys" : "PRIMARY",
+      "key" : "PRIMARY",
+      "key_len" : "8",
+      "ref" : "const",
+      "rows" : 1,
+      "filtered" : 100.0,
+      "Extra" : "Using index"
+    }, {
+      "id" : 1,
+      "select_type" : "SIMPLE",
+      "table" : "o",
+      "partitions" : null,
+      "type" : "range",
+      "possible_keys" : "uk_store_order,ix_store_ordered_id,ix_ordered_id,ix_store_status_ordered_id",
+      "key" : "ix_store_status_ordered_id",
+      "key_len" : "79",
+      "ref" : null,
+      "rows" : 25,
+      "filtered" : 100.0,
+      "Extra" : "Using where; Using index"
+    } ],
+    "explainAnalyze" : "-> Aggregate: count(0)  (cost=7.83 rows=1) (actual time=0.00996..0.00996 rows=1 loops=1)\n    -> Filter: ((o.`status` = 'REFUNDED') and (o.store_id = 29) and (o.ordered_at >= TIMESTAMP'2085-01-01 00:00:00') and (o.ordered_at < TIMESTAMP'2086-01-01 00:00:00'))  (cost=5.33 rows=25) (actual time=0.00429..0.00887 rows=25 loops=1)\n        -> Covering index range scan on o using ix_store_status_ordered_id over (store_id = 29 AND status = 'REFUNDED' AND '2085-01-01 00:00:00' <= ordered_at < '2086-01-01 00:00:00')  (cost=5.33 rows=25) (actual time=0.00379..0.00616 rows=25 loops=1)\n",
+    "samplesMs" : [ 0.119167, 0.116458, 0.111041, 0.108, 0.106084, 0.108333, 0.110833, 0.113709, 0.108375, 0.118041, 0.11, 0.110333, 0.110209, 0.108959, 0.109292, 0.116, 0.108792, 0.107333, 0.110792, 0.108625 ],
+    "medianMs" : 0.1101045,
+    "p95Ms" : 0.118041,
+    "minMs" : 0.106084,
+    "maxMs" : 0.119167
+  },
+  "alternatingListBaseline" : {
+    "samplesMs" : [ 2.60825, 2.850958, 2.698459, 2.648833, 2.623834, 2.824583, 2.762792, 2.828, 2.755208, 2.703458, 2.701833, 2.680458, 2.6815, 2.679958, 2.579333, 2.55325, 2.570084, 2.650417, 2.7845, 2.616084 ],
+    "medianMs" : 2.680979,
+    "p95Ms" : 2.828,
+    "minMs" : 2.55325,
+    "maxMs" : 2.850958
+  },
+  "alternatingListCandidate" : {
+    "samplesMs" : [ 0.172708, 0.161958, 0.173625, 0.162875, 0.191, 0.205209, 0.266875, 0.214416, 0.185958, 0.183166, 0.19275, 0.176334, 0.192333, 0.155833, 0.179875, 0.173375, 0.18475, 0.176458, 0.216709, 0.174875 ],
+    "medianMs" : 0.1815205,
+    "p95Ms" : 0.216709,
+    "minMs" : 0.155833,
+    "maxMs" : 0.266875
+  },
+  "listResultsIdentical" : true,
+  "finishedAt" : "2026-10-14T22:39:07.999694+08:00",
+  "finalTableCounts" : {
+    "stores" : 0,
+    "products" : 0,
+    "users" : 0,
+    "import_batches" : 0,
+    "orders" : 0,
+    "order_items" : 0,
+    "audit_log" : 0,
+    "export_log" : 0
+  },
+  "cleanupRestoredCounts" : true
+}

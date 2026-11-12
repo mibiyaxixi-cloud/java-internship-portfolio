@@ -1,0 +1,8 @@
+{
+  "version": "v1.15.5",
+  "asset": "qdrant-aarch64-apple-darwin.tar.gz",
+  "bytes": 28783681,
+  "digest": "sha256:e712f362e1e9aff18bb062f15c05fa384282ededc7d49f1935792cdc64e25222",
+  "officialDigest": "sha256:e712f362e1e9aff18bb062f15c05fa384282ededc7d49f1935792cdc64e25222",
+  "verified": true
+}

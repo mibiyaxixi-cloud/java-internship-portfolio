@@ -1,0 +1,14 @@
+
+> order-reporting-web@0.1.0 build
+> vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 12 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.37 kB │ gzip:  0.30 kB
+dist/assets/index-v_T_2v-j.css   7.13 kB │ gzip:  2.41 kB
+dist/assets/index-BmR2qol4.js   79.12 kB │ gzip: 30.85 kB
+
+✓ built in 58ms

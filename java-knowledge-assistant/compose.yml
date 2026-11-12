@@ -1,0 +1,42 @@
+name: java-knowledge-assistant
+services:
+  mysql:
+    image: mysql:8.4.11
+    environment:
+      MYSQL_DATABASE: knowledge
+      MYSQL_USER: knowledge
+      MYSQL_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?set MYSQL_ROOT_PASSWORD}
+    ports: ["127.0.0.1:13308:3306"]
+    volumes: ["mysql-data:/var/lib/mysql"]
+    healthcheck:
+      test: ["CMD-SHELL", "MYSQL_PWD=$$MYSQL_PASSWORD mysql -h127.0.0.1 -u$$MYSQL_USER -Dknowledge -e 'SELECT 1' >/dev/null"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  qdrant:
+    image: qdrant/qdrant:v1.15.5
+    environment:
+      QDRANT__SERVICE__API_KEY: ${QDRANT_API_KEY:?set QDRANT_API_KEY}
+      QDRANT__TELEMETRY_DISABLED: "true"
+    ports: ["127.0.0.1:16333:6333"]
+    volumes: ["qdrant-data:/qdrant/storage"]
+  backend:
+    build: .
+    env_file: .env
+    environment:
+      DB_URL: jdbc:mysql://mysql:3306/knowledge?connectionTimeZone=UTC
+      DB_USERNAME: knowledge
+      QDRANT_URL: http://qdrant:6333
+      SERVER_ADDRESS: 0.0.0.0
+      SERVER_PORT: 8082
+    depends_on:
+      mysql: { condition: service_healthy }
+      qdrant: { condition: service_started }
+  web:
+    build: frontend
+    ports: ["127.0.0.1:5175:80"]
+    depends_on: [backend]
+volumes:
+  mysql-data:
+  qdrant-data:

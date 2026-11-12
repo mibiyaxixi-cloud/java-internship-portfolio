@@ -1,0 +1,10 @@
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s -- in com.orderreporting.DatabaseGuardTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s -- in com.orderreporting.CsvExportTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+2026-10-12T22:43:42.637+08:00  INFO 13235 --- [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://127.0.0.1:13307/order_reporting_test?connectionTimeZone=Asia/Shanghai (MySQL 8.4)
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.108 s -- in com.orderreporting.ReportsMySqlIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.606 s -- in com.orderreporting.WorkflowMySqlIT
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+[INFO] Total time:  5.745 s
+[INFO] Finished at: 2026-10-12T22:43:45+08:00

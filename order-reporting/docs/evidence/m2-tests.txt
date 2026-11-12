@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.orderreporting.ReportsMySqlIT
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.108 s -- in com.orderreporting.ReportsMySqlIT
+
+-------------------------------------------------------------------------------
+Test set: com.orderreporting.WorkflowMySqlIT
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.606 s -- in com.orderreporting.WorkflowMySqlIT
+
+-------------------------------------------------------------------------------
+Test set: com.orderreporting.CsvExportTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s -- in com.orderreporting.CsvExportTest
+
+-------------------------------------------------------------------------------
+Test set: com.orderreporting.DatabaseGuardTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s -- in com.orderreporting.DatabaseGuardTest

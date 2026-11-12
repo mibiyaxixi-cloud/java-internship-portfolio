@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-12T14:05:17.045Z",
+  "result": "PASS",
+  "demoOrders": 4,
+  "demoItems": 5,
+  "batchId": "3a77a578-11a5-4d66-8b07-83a0d042b9b4",
+  "checks": [
+    "session login and CSRF",
+    "precheck and confirm",
+    "same-file replay",
+    "cross-store list/import/detail denied",
+    "batch ownership",
+    "exact cents and cross-day events",
+    "real multipart 1 MiB limit"
+  ]
+}

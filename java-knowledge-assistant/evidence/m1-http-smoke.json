@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-10-15T15:09:14.457Z",
+  "base": "http://127.0.0.1:5175/api",
+  "mode": "mock",
+  "model": "mock-extract-v1",
+  "embedding": "mock-bigram-hash-v1",
+  "collection": "knowledge_mock_c7e0b4fbce7bdcf9",
+  "topK": 4,
+  "documents": [
+    {
+      "id": "fd098704-7e6c-4ac4-8fdb-41e7ad2dc7f6",
+      "filename": "01-onboarding.md",
+      "version": 1,
+      "status": "INDEXED",
+      "profile": "c7e0b4fbce7bdcf919cc4d2932252f8b41a4f0104db1df8a25373155c08479e4"
+    },
+    {
+      "id": "66a51098-20b4-407a-ac2f-ea57917af45f",
+      "filename": "02-equipment.md",
+      "version": 1,
+      "status": "INDEXED",
+      "profile": "c7e0b4fbce7bdcf919cc4d2932252f8b41a4f0104db1df8a25373155c08479e4"
+    },
+    {
+      "id": "82ba444d-62d3-472d-952b-a9c1b786aad8",
+      "filename": "03-expenses.txt",
+      "version": 1,
+      "status": "INDEXED",
+      "profile": "c7e0b4fbce7bdcf919cc4d2932252f8b41a4f0104db1df8a25373155c08479e4"
+    }
+  ],
+  "checks": [
+    "anonymous denied",
+    "session login and CSRF rotation",
+    "three simulated documents indexed",
+    "reader upload denied",
+    "unsupported type rejected",
+    "real HTTP upload limit",
+    "mock answer, allowed citation and original source",
+    "history isolated including admin"
+  ],
+  "modelQualityEvaluation": null
+}

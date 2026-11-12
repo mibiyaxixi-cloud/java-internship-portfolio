@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-12T15:36:56.074Z",
+  "base": "http://127.0.0.1:5174/api",
+  "result": "PASS",
+  "totals": {
+    "salesCents": 20000,
+    "refundCents": 10000,
+    "netCents": 10000,
+    "paidOrders": 3,
+    "refundedOrders": 1
+  },
+  "daily": [
+    {
+      "day": "2026-09-30",
+      "salesCents": 14000,
+      "refundCents": 0,
+      "netCents": 14000,
+      "paidOrders": 2,
+      "refundedOrders": 0
+    },
+    {
+      "day": "2026-10-01",
+      "salesCents": 6000,
+      "refundCents": 10000,
+      "netCents": -4000,
+      "paidOrders": 1,
+      "refundedOrders": 1
+    }
+  ],
+  "eventLines": 6,
+  "checks": [
+    "session authentication",
+    "daily/store/product overview and exact cross-day totals",
+    "event drilldown to original order",
+    "store scope on reports and both exports",
+    "bad export filters return JSON without attachment",
+    "CSV response and own export history"
+  ],
+  "note": "Requires demo-orders.csv already imported and no extra orders in the demo date range; does not delete business data or measure performance."
+}

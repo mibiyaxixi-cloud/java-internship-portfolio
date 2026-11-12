@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-15T14:48:22.138Z",
+  "images": [
+    {
+      "repo": "library/maven",
+      "tag": "3.9.11-eclipse-temurin-21",
+      "error": "fetch failed"
+    },
+    {
+      "repo": "library/eclipse-temurin",
+      "tag": "21-jre-jammy",
+      "error": "fetch failed"
+    },
+    {
+      "repo": "library/node",
+      "tag": "24.21.0-alpine",
+      "error": "fetch failed"
+    },
+    {
+      "repo": "library/nginx",
+      "tag": "1.28.0-alpine",
+      "error": "fetch failed"
+    },
+    {
+      "repo": "library/mysql",
+      "tag": "8.4.11",
+      "error": "fetch failed"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "tag": "v1.15.5",
+      "error": "fetch failed"
+    }
+  ]
+}

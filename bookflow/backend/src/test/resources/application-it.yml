@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    # 独立测试库；禁止默认回落到应用库，未配置时测试应失败。
+    url: ${TEST_DB_URL}
+    username: ${TEST_DB_USERNAME}
+    password: ${TEST_DB_PASSWORD}
+  flyway:
+    locations: classpath:db/migration
+
+bookflow:
+  scheduling:
+    enabled: false

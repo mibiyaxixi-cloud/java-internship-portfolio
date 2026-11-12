@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java", "name": "BookFlow: 启动后端", "request": "launch",
+      "mainClass": "com.bookflow.BookFlowApplication", "projectName": "bookflow-backend",
+      "cwd": "${workspaceFolder}", "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java", "name": "BookFlow: 附加后端 5005", "request": "attach",
+      "hostName": "127.0.0.1", "port": 5005
+    },
+    {
+      "type": "pwa-chrome", "name": "BookFlow: 调试 Vue", "request": "launch",
+      "url": "http://127.0.0.1:5173", "webRoot": "${workspaceFolder}/frontend"
+    }
+  ]
+}

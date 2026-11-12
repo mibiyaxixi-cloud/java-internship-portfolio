@@ -1,0 +1,19 @@
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/.local/
+**/.tools/
+**/.qdrant-initialized
+**/.vscode/settings.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+# Build outputs and dependencies
+**/target/
+**/node_modules/
+**/dist/
+*.log
+.DS_Store

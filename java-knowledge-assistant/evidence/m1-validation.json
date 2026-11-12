@@ -1,0 +1,105 @@
+{
+  "recordedAt": "2026-10-15T15:10:13.408Z",
+  "suites": [
+    {
+      "suite": "com.example.knowledge.AiConfigurationTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.026
+    },
+    {
+      "suite": "com.example.knowledge.ChunkerTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.015
+    },
+    {
+      "suite": "com.example.knowledge.CitationValidatorTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.004
+    },
+    {
+      "suite": "com.example.knowledge.QdrantValidationTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.098
+    },
+    {
+      "suite": "com.example.knowledge.VersionFilterTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.334
+    },
+    {
+      "suite": "com.example.knowledge.RealAdapterIT",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.336
+    },
+    {
+      "suite": "com.example.knowledge.WorkflowIT",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 1.718
+    }
+  ],
+  "total": 27,
+  "runtime": {
+    "java": "Temurin 21.0.12.1+1",
+    "node": "v24.21.0",
+    "npm": "11.19.0",
+    "mysql": "8.4.11",
+    "qdrant": "1.15.5",
+    "os": "macOS 27.0.1 (26A434), arm64"
+  },
+  "parameters": {
+    "mode": "mock",
+    "chatModel": "mock-extract-v1",
+    "embeddingModel": "mock-bigram-hash-v1",
+    "dimensions": 256,
+    "documentVersion": 1,
+    "chunker": "section-v1",
+    "chunkSize": 600,
+    "overlap": 80,
+    "topK": 4,
+    "candidateK": 16,
+    "minScore": 0.2
+  },
+  "samples": [
+    {
+      "name": "01-onboarding.md",
+      "sha256": "567e33f4e898fea3619b80a93b56c338b2ed9fe2494666973167c622d879674c"
+    },
+    {
+      "name": "02-equipment.md",
+      "sha256": "5dbddb130bed8e020bd5d1fdbdda4fecb8bed1a44ea19cacdf57928381cb882e"
+    },
+    {
+      "name": "03-expenses.txt",
+      "sha256": "b73b0c34c9c88049d4cb27b75234c41aa8975d7dab93389412dac2bb73be1c4e"
+    }
+  ],
+  "realModelEvaluation": {
+    "executed": false,
+    "answerCorrectness": null,
+    "citationSupport": null,
+    "insufficientEvidencePerformance": null
+  },
+  "browserInteractionVerified": false,
+  "dockerComposeExecuted": false
+}

@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "BookFlow: 前端", "type": "shell", "command": "npm run dev", "options": {"cwd": "${workspaceFolder}/frontend"}, "problemMatcher": []},
+    {"label": "BookFlow: 单元测试", "type": "shell", "command": "./scripts/backend.sh test", "problemMatcher": []},
+    {"label": "BookFlow: MySQL 集成测试", "type": "shell", "command": "./scripts/backend.sh verify", "problemMatcher": []}
+  ]
+}
