@@ -4,6 +4,8 @@
 
 ## BookFlow · 实验室设备预约与候补调度平台
 
+项目源码：[BookFlow](https://github.com/mibiyaxixi-cloud/java-internship-portfolio/tree/main/bookflow)
+
 **技术栈：Java 21、Spring Boot、Spring Security、MyBatis、MySQL、Vue 3**
 
 - 实现设备与时段管理、登录鉴权、预约取消、个人记录和管理员操作，使用 Session、BCrypt、CSRF 及后端归属校验控制访问。
@@ -11,6 +13,8 @@
 - 实现候补排队、限时确认、超时递补和持久化任务恢复，并通过真实 MySQL 并发用例验证竞争场景。
 
 ## 门店订单与经营报表后台
+
+项目源码：[门店订单与经营报表](https://github.com/mibiyaxixi-cloud/java-internship-portfolio/tree/main/order-reporting)
 
 **技术栈：Java 21、Spring Boot、MyBatis、MySQL、Vue 3、ECharts**
 
@@ -22,6 +26,8 @@
 
 ## 知页 · Java 知识库问答助手（学习中，可选）
 
+项目源码：[Java 知识库问答助手](https://github.com/mibiyaxixi-cloud/java-internship-portfolio/tree/main/java-knowledge-assistant)
+
 **技术栈：Java 21、Spring Boot、Spring AI、MySQL、Qdrant、Vue 3**
 
 - 实现文档导入、切块、向量检索、引用校验和用户聊天记录隔离；使用 MOCK 模式验证工程流程。
@@ -31,4 +37,4 @@
 
 ## 项目链接
 
-仓库发布并确认公开访问后，将作品集仓库地址放在简历联系信息下方；每个项目标题可分别指向对应子目录。源码链接与在线演示地址不同，本仓库不等于已部署的公网网站。
+简历联系信息下方可填写：**项目作品集：[GitHub](https://github.com/mibiyaxixi-cloud/java-internship-portfolio)**。各项目源码链接已放在标题下方。源码链接与在线演示地址不同，本仓库不等于已部署的公网网站。
